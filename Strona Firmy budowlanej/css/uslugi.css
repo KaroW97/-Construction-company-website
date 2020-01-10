@@ -1,0 +1,28 @@
+#main-informations article{
+    margin-bottom:20px;
+}
+#main-informations .article-separator{
+    margin-bottom:65px;
+}
+.float-img img{
+    display: none;
+    float:right;
+    margin:0;
+    min-width:50%;
+    max-width:55%;
+}
+#main-informations{
+    clear: both;
+}
+@media (min-width:760px){
+    .float-img img{
+        display:block;
+        margin:0 0 40% 8%;
+    }    
+}
+@media (min-width:1400px){
+    p{
+    font-size:20px !important;
+   
+}
+}

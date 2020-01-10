@@ -1,0 +1,103 @@
+body {
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f1f1f1;
+}
+a{
+    text-decoration: none;
+}
+.topnav {
+  
+    z-index: 12000;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    background-color: #616161; 
+}
+.topnav li a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 19px;
+  padding:10px 0;
+}
+
+.topnav button i{
+color:white;
+font-size: 20px;
+}
+.topnav button  {
+  padding:10px;
+  background-color:transparent;
+  display: none;
+  border:none
+}
+.topnav ul{
+    white-space: nowrap;
+    padding:0;
+    margin: 0;
+    list-style:none;
+}
+.topnav ul li{
+    width:25% !important;
+    clear: both;
+    display:inline-block;
+}
+.topnav ul li:hover a{
+    color:black;
+    background-color: rgb(158, 157, 157);
+}
+#main-conteiner{  
+    display:block !important;
+    padding-bottom:2.5rem;
+    max-width:1920px;
+    margin: 0 auto;
+ }
+ #main-menu{
+    display: flex;
+    text-align: center;
+    max-width:1920px;
+    margin: 0 auto;
+    padding:0;
+}
+@media screen and (max-width: 760px) {
+.topnav{
+    position:static;
+    background-color: white; 
+}
+.topnav ul li{
+    clear: both;
+    display:block;
+}
+.topnav ul li a {
+    color:black;
+    text-align: center;
+    display: none;
+}
+.topnav ul li:hover a{
+    color:black;
+    background-color: rgb(192, 191, 191);
+}
+.topnav button {
+    float: left;
+    display: block;
+}
+.topnav button i{
+    color:black;
+}
+.topnav.responsive button i {
+    float:left;
+    left: 0;
+    top: 0;
+}
+.topnav.responsive ul li {
+    text-align: center;
+    min-width:100%; 
+}
+.topnav.responsive ul li a {
+    min-width:100%;
+    display: block;
+}
+}

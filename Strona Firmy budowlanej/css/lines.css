@@ -1,0 +1,43 @@
+.lines hr{
+    margin:0;
+    min-width:90px;
+    width:4%;
+    border-top:6px solid #99b433;
+}
+.lines h3{
+    font-size:20px;
+    font-weight: 600;
+    color: #4d4d4d;
+}
+.separation{
+    margin-top:60px;
+    clear: both;
+}
+
+.separatinP{
+    margin-top:30px;
+}
+.size-h3{
+
+font-size: 23px;
+}
+.margin-h3-bottom{
+    margin-bottom:0;
+}
+.margin-h3-top{
+    margin-top:0;
+    padding-top:12px;
+    padding-bottom:15px;
+}
+.bolderLine hr{
+  
+    margin:0;
+    min-width:90px;
+    width:4%;
+    border-top:9px solid #99b433;
+}
+.bolderLine h3{
+    font-size:20px;
+    font-weight: bolder;
+    color: #4d4d4d;
+}

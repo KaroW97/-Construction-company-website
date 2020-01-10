@@ -1,0 +1,23 @@
+#main-informations .bolder-Class{
+    color: #4d4d4d;
+    font-weight: bolder;
+}
+.sepia{
+    
+    filter:sepia(70%);
+}
+.radious {
+    border-radius: 9px;
+}
+.main-article {
+    
+    box-shadow: 2px 2px  17px  #aaaaaa;
+}
+
+.top-image{ 
+  -webkit-filter: grayscale(65%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(65%);
+}
+.green-maker{
+    color:#8bc34a;
+}

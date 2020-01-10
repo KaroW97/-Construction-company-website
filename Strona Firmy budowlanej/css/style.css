@@ -1,0 +1,132 @@
+img{
+    width: 100%;
+    display: block;
+    filter:sepia(70%);
+}
+
+#slide-bar img{
+    width:100%;   
+}
+
+#main-content{
+   
+    padding:20px 20px 30px 20px;  
+}
+
+#main-content h3 {
+    font-size:22px ;
+    font-weight: 600;
+}
+
+#main-footer p{
+    font-size:18px;
+}
+
+.main-article {
+   
+    margin: 35px 0 ;
+}
+
+.main-article img{
+    margin:0;
+}
+
+.main-article h3{
+    color:black;
+    padding:0 15px 0 15px;
+}
+
+.main-article p{
+    padding:15px; 
+}
+
+.main-article p a{
+    color:black;
+}
+
+#slide-bar{
+    position: relative;
+}
+
+#slide-bar article{
+    background-color: rgba(55, 55, 55, 0.80);
+    z-index: 20;
+}
+#slide-bar #left-side-text {
+    background-color: rgba(55, 55, 55, 0.80);
+    font-size:18px;
+    padding:20px 20px ;
+    color: #99b433;
+    position:absolute;
+    bottom:15%;   
+}
+#slide-bar img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+
+
+@media (min-width:760px){
+
+    #slide-bar #left-side-text{
+        font-size:24px;
+    }
+    #slide-bar{
+    
+        height:700px;
+        overflow: hidden;
+    }
+}
+@media (min-width:1000px){
+    #main-content{
+        position:relative;
+        padding:20px 20px 30px 20px;  
+    }
+    
+    #main-content #content-left-side-text {
+        position:absolute;
+        
+        bottom:13%;   
+    }
+    #main-content{
+        padding-right:0px;
+        padding-left:0px;
+        width:100%;
+        display:flex;
+        margin: 0 auto;  
+    }
+  
+    #main-separator{
+        position: relative;
+        padding:0 35px;
+    }
+   .main-article:last-child{
+        margin-right:0;
+    }
+    .main-article{
+        margin-right:22px;
+        width:35%;
+    }
+    .main-article p{
+        margin-bottom:6%;
+    }
+}
+@media (min-width:1400px){
+    #main-content p {
+        font-size:18px;
+    }
+    #main-content h3{
+        font-size: 23px;
+    }
+}
+
+@media(min-width:670px) and (max-width:1000px){
+    .main-article h3{
+        font-size:22px !important;
+    }
+    .main-article p{
+        font-size:16px;
+    }
+}

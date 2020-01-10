@@ -1,0 +1,42 @@
+#contact-bar{
+    clear: both;  
+   align-items: center;
+   background-color: #99b433; 
+   padding:24px 16px ;  
+  
+   top:0; 
+    float:right;
+    width: 100%;  
+ 
+}
+
+#contact-bar button{
+    font-size:17px;
+    background-color:white;
+    margin-top:0;
+    float:right;
+    padding: 8px 12px 8px 16px;
+    border-radius: 8px;
+    border:none;
+    flex-grow: 1;
+}
+#contact-bar button:hover a{
+    color:white;
+}
+#contact-bar i{
+    padding-left:4px;
+}
+#contact-bar button:hover {
+    background-color: #616161;
+  
+}
+@media (min-width:760px){
+    #contact-bar{
+     
+        width:98.3%;
+    }
+
+    #contact-bar button{
+        font-size:18px;
+    }
+}

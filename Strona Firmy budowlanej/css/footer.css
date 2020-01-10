@@ -1,0 +1,33 @@
+#main-footer{
+    bottom: 20;
+    height:.3.5rem;
+    width:100%;
+    right:0;
+    left:0;
+    background-color:rgba(55, 55, 55, 0.80);
+}
+#main-footer p{
+    padding:15px 7px;
+    font-size:14px !important;
+    text-align: center;
+    margin:0;
+    color:white;
+}
+#page-container{
+    position: relative;
+    min-height: 100vh;
+}
+
+@media (min-width:760px){
+    #main-footer p{
+        font-size:16px !important;
+    }
+    #main-footer{
+        clear:both; 
+    }
+}
+@media(min-width:1500px){
+    #main-footer{
+        margin-top:10%!important;
+    }
+}
